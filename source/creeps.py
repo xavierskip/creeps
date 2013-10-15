@@ -251,7 +251,7 @@ class Game(object):
         self.game_field = pygame.Surface((self.FIELD_WIDTH,self.FIELD_HEIGHT))
         self.message_board = pygame.Surface((self.MESSAGE_WIDTH,self.MESSAGE_HEIGHT)) 
         # text font
-        self.font = pygame.font.Font('data/FZMWFont.ttf',23)
+        self.font = pygame.font.Font('data/Font.ttf',23)
         # images
         self.icon = pygame.image.load('data/icon.png').convert_alpha()
         self.bg_title_img = pygame.image.load('data/bg.gif').convert_alpha()
